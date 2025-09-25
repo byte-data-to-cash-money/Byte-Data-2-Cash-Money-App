@@ -1,0 +1,10 @@
+{
+  "name": "byte-data-2-cash",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run dev --prefix backend\" \"npm start --prefix frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
